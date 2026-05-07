@@ -32,7 +32,7 @@ export default function CollegeCard({ college }) {
         </div>
 
         <div className="mt-4 grid gap-2 text-sm text-slate-600 dark:text-slate-300">
-          <span className="flex items-center gap-2"><MapPin size={16} /> {college.location.city}, {college.location.state}</span>
+          <span className="flex items-center gap-2"><MapPin size={16} /> {college.location?.city}, {college.location?.state}</span>
           <span className="flex items-center gap-2"><IndianRupee size={16} />  ₹{formatCurrency(college.fees.min)} - ₹{formatCurrency(college.fees.max)}</span>
         </div>
 
