@@ -21,8 +21,8 @@ export function normalizeCollege(college = {}) {
 
     fees:
       typeof college.fees === 'object'
-        ? college.fees.min
-        : college.fees ?? college.averageFees ?? null,
+        ? `₹${college.fees.min || 'Not disclosed'} - ₹${college.fees.max || 'Not disclosed'}`
+        : college.fees ?? 'Not disclosed',
 
     placementRate:
       college.placements?.placementRate ??
