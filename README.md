@@ -13,22 +13,6 @@ Users can:
 
 ---
 
-# 🚀 Live Demo
-
-## Frontend
-
-https://intern-task-steel.vercel.app/colleges
-
-## Backend API
-
-[https://intern-task-o2uy.onrender.com](https://intern-task-o2uy.onrender.com)
-
-## API Docs
-
-[https://intern-task-o2uy.onrender.com/docs](https://intern-task-o2uy.onrender.com/docs)
-
----
-
 # ✨ Features
 
 * JWT Authentication
@@ -83,7 +67,7 @@ CampusIQ/
 ## Frontend (.env)
 
 ```env
-VITE_API_URL=https://intern-task-o2uy.onrender.com/api
+VITE_API_URL= your_vite_url
 ```
 
 ## Backend (.env)
@@ -157,18 +141,6 @@ http://localhost:8080
 * GET `/api/users/saved`
 * POST `/api/users/save/{college_id}`
 * DELETE `/api/users/save/{college_id}`
-
----
-
-# 🧠 Challenges Solved
-
-* React Router deployment issues on Vercel
-* CORS integration between Vercel and Render
-* MongoDB Atlas connection issues
-* Production environment variables
-* Nested API response normalization
-* Fallback handling for API failures
-* Full-stack deployment pipeline
 
 ---
 
